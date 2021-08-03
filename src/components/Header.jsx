@@ -10,11 +10,19 @@ const Header = (props) => {
 
 	return (
 		<div className="Header" /* id={backColor} */>
-			<h1>ReactHooks</h1>
-			<div className="button__container">
-				<button className="boton" type="button" onClick={() => props.onClick()}>
-					{props.darkMode ? "Light Mode" : "Drak Mode"}
-				</button>
+			<div className="header__container">
+				<div className="nameContainer">
+					<h1>ReactHooks</h1>
+				</div>
+				<div className="botonContainer">
+					<button
+						className="boton"
+						type="button"
+						onClick={() => props.onClick()}
+					>
+						{props.darkMode ? "Light Mode" : "Drak Mode"}
+					</button>
+				</div>
 			</div>
 		</div>
 	);

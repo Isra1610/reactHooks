@@ -3,13 +3,24 @@
 	background-color: #0566b0;
 	color: #fff;
 	font-weight: 600;
-	width: 320px;
+	width: 8rem;
 	border-color: #065a9b;
 	padding: 5px;
 }
 
-.button__container {
-	text-align: right;
-	margin-right: 5.3rem;
+.header__container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
 	padding-bottom: 1rem;
+}
+
+.nameContainer {
+	margin-left: 45%;
+	margin-top: 1rem;
+}
+
+.botonContainer {
+	margin-right: 5%;
+	margin-top: 1.5rem;
 }

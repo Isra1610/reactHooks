@@ -17,7 +17,8 @@
 		margin: 1rem;
 
 		.list-item__info {
-			/* padding: 1.2rem; */
+			display: flex;
+			flex-direction: column;
 			border-radius: 10px;
 			background-color: #2b2e3a;
 			color: #fff;
@@ -30,9 +31,26 @@
 				border-top-right-radius: 10px;
 			}
 
-			p:last-child {
+			.addButton {
+				border-radius: 5px;
+				background-color: #0566b0;
+				color: #fff;
+				width: 100%;
+				font-weight: 600;
+				border-color: #065a9b;
+				padding: 4px;
+			}
+
+			.nameCss {
+				padding: 5px;
 				margin: 0;
 			}
 		}
 	}
+}
+
+.Search {
+	text-align: start;
+	margin-left: 5%;
+	margin-bottom: 2rem;
 }
