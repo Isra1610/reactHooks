@@ -11,6 +11,7 @@
 		font-size: 16px;
 		align-items: center;
 		justify-content: center;
+		height: fit-content;
 		background-color: #fff;
 		border-radius: 10px;
 		/* padding: 1rem; */
@@ -50,7 +51,16 @@
 }
 
 .Search {
-	text-align: start;
-	margin-left: 5%;
 	margin-bottom: 2rem;
+
+	.searchContainer {
+		display: flex;
+		justify-content: center;
+
+		.searchIcon {
+			width: 2rem;
+			background-color: #0578cf;
+			color: #fff;
+		}
+	}
 }
